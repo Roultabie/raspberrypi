@@ -10,7 +10,7 @@ Repo for my scripts to enhance my raspberry pi.
 
 *How to add a power button (off/on) to safely shutdown system.*
 
-* [listen-for-shutdown.py](./usr/local/bin/listen-for-shutdown.py) Python script [source](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi).
+* [listen-for-shutdown.py](./usr/local/bin/listen-for-shutdown.py) Python script *[source](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi)*.
 * [listen-for-shutdown.service](./etc/systemd/system/listen-for-shutdown.service) SystemD service.
 
 ## Licence
