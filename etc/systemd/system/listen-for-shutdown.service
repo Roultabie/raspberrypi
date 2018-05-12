@@ -1,0 +1,13 @@
+[Unit]
+Description=Service to detect contact bettwen pin 3 & 4 to shutdown raspberry pi
+
+[Service]
+Type=simple
+User=root
+Group=root
+UMask=007
+ExecStart=/usr/local/bin/listen-for-shutdown.py
+ExecReload=/bin/kill -HUP $MAINPID
+ 
+[Install]
+WantedBy=multi-user.target
