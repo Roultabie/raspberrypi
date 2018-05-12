@@ -1,5 +1,5 @@
 [Unit]
-Description=Service to detect contact bettwen pin 3 & 4 to shutdown raspberry pi
+Description=Service to detect contact bettwen pin 5 & ground to shutdown raspberry pi
 
 [Service]
 Type=simple
