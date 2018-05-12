@@ -16,5 +16,3 @@ Repo for my scripts to enhance my raspberry pi.
 ## Licence
 
 [MIT licence](https://opensource.org/licenses/mit-license.php)
-
-Copyright 2018 [Daniel Douat](http://daniel.douat.fr)
